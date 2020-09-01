@@ -1,0 +1,144 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+
+}
+header{
+	height: 100px;
+	width: 100%;
+	background-color: #fff;
+	color: rgb(51, 79, 201);
+	text-align: center;
+	align-content: center;
+	margin-top: 0px;
+	transition: 0.3s ease;
+}
+#header-div{
+	height: 100%;	
+	width: 100%;
+    position: relative;
+}
+#header-p{
+	height: 50px;
+	top: 20%;
+	left: 43%;
+	position: absolute;
+	font-size: 50px;
+}
+
+
+
+@media screen and (min-width: 992px){
+
+.div{
+	height: 400px;
+	width: 	32%;
+	background-color: rgb(112, 98, 112);
+	color: #fff;
+	border:1px solid black ;
+	float: left;
+	   margin:0.5%; 
+	position: relative;
+}
+.div > p {
+	margin-top: 50px;
+}
+#str{
+   height: 40px;
+   width: 150px;
+   background-color: red;
+   font-size: 30px;
+   text-align: center;
+   right: 10px;
+   top: 2px;
+   position: absolute;
+}
+.navbar-collapse{
+	margin-left: 40em;
+}
+}
+@media screen and (max-width: 991px) and (min-width: 786px){
+		
+.div1, .div2{
+	height: 400px;
+	width: 	48.5%;
+	background-color: rgb(112, 98, 112);
+	color: #fff;
+	border:1px solid black ;
+	float: left;
+	   margin:0.5%; 
+	position: relative;
+}
+
+.div3{
+	height: 400px;
+	width: 	95%;
+	background-color: rgb(112, 98, 112);
+	color: #fff;
+	border:1px solid black ;
+	border-top-right-radius: 10%;
+	border-bottom-left-radius: 15%;
+	float: left;
+	  margin:0.5%; 
+	position: relative;
+}
+.div > p {
+	margin-top: 50px;
+}
+#str{
+   height: 40px;
+   width: 150px;
+   background-color: red;
+   font-size: 30px;
+   text-align: center;
+   right: 10px;
+   top: 2px;
+   position: absolute;
+}
+button.navbar-toggler:hover{
+	border:1px solid darkmagenta;
+}
+}
+@media screen and (max-width: 785px){
+
+
+
+.div1, .div2, .div3{
+	height: 400px;
+	width: 	95%;
+	background-color: rgb(112, 98, 112);
+	color: #fff;
+	border:1px solid black ;
+	float: left;
+	   margin:0.5%; 
+	position: relative;
+}
+.div > p {
+	margin-top: 50px;
+}
+#str{
+   height: 40px;
+   width: 150px;
+   background-color: red;
+   font-size: 30px;
+   text-align: center;
+   right: 10px;
+   top: 2px;
+   position: absolute;
+}	
+button, .navbar-toggler, .navbar-toggler-icon{
+	border:2px solid darkmagenta;
+	color: darkviolet;
+	background-color: darkviolet;
+	padding: 1em;
+}
+.nav-item, .nav-link{
+	margin-left: 10em;
+	font-size: 2em;
+}
+}
